@@ -1,0 +1,109 @@
+{
+	"metadados": {
+		"cabecalho": {
+			"titulo": "Agremiações Carnavalescas",
+			"descricao": "Agremiação carnavalesca é um termo usado para definir diversos tipos de manifestações carnavalescas populares",
+			"categoria_vcge": "http://vocab.e.gov.br/2011/03/vcge#cultura",
+			"fonte_dados": "http://dados.recife.pe.gov.br",
+			"licenca": "Open Database License (ODbL)",
+			"responsavel_dados": "Fundação da Cultura",
+			"responsavel_disponibilizar": "Emprel",
+			"frequencia_atualizacao": "Anual",
+			"endereco_dataset": "http://dados.recife.pe.gov.br/dataset/agremiacoes-carnavalescas",
+			"status": "ativo",
+			"endereco_dataset_substituto": "",
+			"granularidade": "Por descrição",
+			"etiquetas": "Agremiação, Carnaval, Cultura"
+		},
+		"recursos": [
+			{ 
+				"identificador": "http://dados.recife.pe.gov.br/dataset/agremiacoes-carnavalescas/resource/9d4c5b35-f53e-408c-8310-3133e5e975a1",
+				"titulo": "Agremiações Carnavalescas",
+				"formato": "csv",
+				"descricao": "Descrição das Agremiações Carnavalescas"
+			}
+		],
+		"campos": [
+			{
+				"codigo": "codigo",
+				"descricao": "Código de identificação da agremiação",
+				"tipo": "Num",
+				"tamanho": 4,
+				"valores_permitidos": ""
+			},
+			{
+				"codigo": "modalidade",
+				"descricao": "Modalidades Carnavalesca",
+				"tipo": "Char",
+				"tamanho": 25,
+				"valores_permitidos": ""
+			},
+			{
+				"codigo": "nome",
+				"descricao": "Nome da Agremiação Carnavalesca",
+				"tipo": "Char",
+				"tamanho": 100,
+				"valores_permitidos": ""
+			},
+			{
+				"codigo": "tipo_sede",
+				"descricao": "Tipo de Sede",
+				"tipo": "Char",
+				"tamanho": 10,
+				"valores_permitidos": "Alugado, Cedida, Própria"
+			},
+			{
+				"codigo": "data_fundacao",
+				"descricao": "Data de Fundação da Agremiação",
+				"tipo": "Date",
+				"tamanho": 10,
+				"valores_permitidos": ""
+			},
+			{
+				"codigo": "cnpj",
+				"descricao": "CNPJ da Agremição",
+				"tipo": "Num",
+				"tamanho": 18,
+				"valores_permitidos": ""
+			},
+			{
+				"codigo": "bairro",
+				"descricao": "Bairro",
+				"tipo": "Char",
+				"tamanho": 50,
+				"valores_permitidos": ""
+			},
+			{
+				"codigo": "cidade",
+				"descricao": "Cidade",
+				"tipo": "Char",
+				"tamanho": 50,
+				"valores_permitidos": ""
+			},
+			{
+				"codigo": "rpa",
+				"descricao": "Região Político Administrativa",
+				"tipo": "Char",
+				"tamanho": 15,
+				"valores_permitidos": ""
+			},
+			{
+				"codigo": "uf",
+				"descricao": "Unidade Federativa",
+				"tipo": "Char",
+				"tamanho": 2,
+				"valores_permitidos": ""
+			},
+			{
+				"codigo": "filiacao",
+				"descricao": "Filiação",
+				"tipo": "Char",
+				"tamanho": 50,
+				"valores_permitidos": ""
+			}
+			
+			
+			
+		]
+	}
+}
